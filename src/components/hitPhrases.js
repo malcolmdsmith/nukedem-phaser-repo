@@ -3,13 +3,13 @@ export default class HitPhrases {
 
 	constructor() {
 		this.hitPhrases.push("NICE SHOT BOB! WAY TO GO <player>!");
-		this.hitPhrases.push("NICE FIRING, <player>!");
+		this.hitPhrases.push("NICE FIRING! <player>!");
 		this.hitPhrases.push("WOW! THIS GUYS A HOT SHOT!");
-		this.hitPhrases.push("BETTER GET YOUR ACT TOGETHER, <opponent>!");
+		this.hitPhrases.push("BETTER GET YOUR ACT TOGETHER <opponent>!");
 		this.hitPhrases.push("CRACK SHOT, ACE!");
 		this.hitPhrases.push("NICE SHOT! GO TEAM <player>!");
-		this.hitPhrases.push("TOP GUN HEY!");
-		this.hitPhrases.push("WISE GUY, HUH!");
+		this.hitPhrases.push("TOP GUN HEY!!");
+		this.hitPhrases.push("WISE GUY! HUH");
 	}
 
 	getPhrase(player, opponent) {

@@ -6,7 +6,7 @@ const webpack = require("webpack");
 module.exports = {
 	mode: "development",
 	devtool: "eval-source-map",
-	entry: "../src/main.js",
+	entry: "./src/main.js",
 	output: {
 		path: path.resolve(process.cwd(), "dist"),
 		filename: "bundle.min.js",

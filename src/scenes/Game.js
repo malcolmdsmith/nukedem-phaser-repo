@@ -66,7 +66,8 @@ export class Game extends Phaser.Scene {
 
 		//Show Background
 		const bg = this.add.image(0, 0, "bg");
-		bg.scale = 0.5;
+		bg.setOrigin(0, 0);
+		bg.setScale(0.4);
 		bg.setDepth(1);
 
 		//Show death star and saturn
